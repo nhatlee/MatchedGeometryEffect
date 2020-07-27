@@ -19,8 +19,10 @@ private let lists: [Example] = [
     Example(id: 2, name: "matchedGeometryEffect with many name space"),
     Example(id: 3, name: "PreferenceView with matchedGeometryEffect"),
     Example(id: 4, name: "Without matched geometry effect"),
-    Example(id: 5, name: "MultipleTriangle")
-    
+    Example(id: 5, name: "MultipleTriangle"),
+    Example(id: 6, name: "FlowTheFlower"),
+    Example(id: 7, name: "Zoomable"),
+    Example(id: 8, name: "Shared name space")
 ]
 struct HomeView: View {
     var body: some View {
@@ -48,6 +50,12 @@ struct HomeView: View {
             WithOutGeometryEffectView()
         case 5:
             MultipleTriangle()
+        case 6:
+            FlowTheFlower()
+        case 7:
+            ZoomableView()
+        case 8:
+            ContentViewNameSpace()
         default:
             Text("Not handle yet")
         }

@@ -19,6 +19,9 @@
 		DCA7F89A24CE80BC0041A273 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA7F89924CE80BC0041A273 /* HomeView.swift */; };
 		DCA7F89C24CE880D0041A273 /* WithOutGeometryEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA7F89B24CE880D0041A273 /* WithOutGeometryEffectView.swift */; };
 		DCA7F89E24CE89290041A273 /* MultipleTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA7F89D24CE89290041A273 /* MultipleTriangle.swift */; };
+		DCA7F8A024CE8BBF0041A273 /* FlowTheFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA7F89F24CE8BBF0041A273 /* FlowTheFlower.swift */; };
+		DCA7F8C124CEAC080041A273 /* ZoomableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA7F8C024CEAC080041A273 /* ZoomableView.swift */; };
+		DCA7F8C324CEAD530041A273 /* ShareNameSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA7F8C224CEAD530041A273 /* ShareNameSpace.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		DCA7F89924CE80BC0041A273 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DCA7F89B24CE880D0041A273 /* WithOutGeometryEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithOutGeometryEffectView.swift; sourceTree = "<group>"; };
 		DCA7F89D24CE89290041A273 /* MultipleTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTriangle.swift; sourceTree = "<group>"; };
+		DCA7F89F24CE8BBF0041A273 /* FlowTheFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowTheFlower.swift; sourceTree = "<group>"; };
+		DCA7F8C024CEAC080041A273 /* ZoomableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableView.swift; sourceTree = "<group>"; };
+		DCA7F8C224CEAD530041A273 /* ShareNameSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareNameSpace.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,9 @@
 				DCA7F87524CD37780041A273 /* Triangle.swift */,
 				DCA7F89524CE7AA60041A273 /* NameSpaceExample.swift */,
 				DCA7F89724CE807E0041A273 /* PreferenceView.swift */,
+				DCA7F89F24CE8BBF0041A273 /* FlowTheFlower.swift */,
+				DCA7F8C024CEAC080041A273 /* ZoomableView.swift */,
+				DCA7F8C224CEAD530041A273 /* ShareNameSpace.swift */,
 				DCA7F84E24CD375C0041A273 /* Assets.xcassets */,
 				DCA7F85324CD375C0041A273 /* Info.plist */,
 				DCA7F85024CD375C0041A273 /* Preview Content */,
@@ -277,11 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA7F8C324CEAD530041A273 /* ShareNameSpace.swift in Sources */,
 				DCA7F87624CD37780041A273 /* Triangle.swift in Sources */,
 				DCA7F84D24CD375A0041A273 /* ContentView.swift in Sources */,
 				DCA7F89824CE807E0041A273 /* PreferenceView.swift in Sources */,
 				DCA7F89E24CE89290041A273 /* MultipleTriangle.swift in Sources */,
 				DCA7F89C24CE880D0041A273 /* WithOutGeometryEffectView.swift in Sources */,
+				DCA7F8C124CEAC080041A273 /* ZoomableView.swift in Sources */,
+				DCA7F8A024CE8BBF0041A273 /* FlowTheFlower.swift in Sources */,
 				DCA7F89A24CE80BC0041A273 /* HomeView.swift in Sources */,
 				DCA7F89624CE7AA60041A273 /* NameSpaceExample.swift in Sources */,
 				DCA7F84B24CD375A0041A273 /* TriangleApp.swift in Sources */,
